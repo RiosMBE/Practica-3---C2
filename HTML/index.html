@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia autimotriz</title>
+    <title>Agencia automotriz</title>
+    <link rel="stylesheet" href="/Practica 3/CSS/estilos.css">
+    <script src="/Practica 3/JS/funciones.js"></script>
+
 </head>
 
-<div id="Contenedor">
 <body>
-    <div id="Encabezado">
-        <header>
-            <h1 class="encabezado">Cotizacion</h1>
-        </header>
+    <div id="contenedor">
+        <div id="cajas">
+            <center>
+                <label for="">Valor del automovil:</label>
+                <input type="text" name="valor" id="valor">
+                <br>
+                <br>
+                <label for="">Enganche:</label>
+                <input type="text" name="enganche" id="enganche">
+                <br>
+                <br>
+                <label for="">Total a financiar</label>
+                <input type="text" name="total" id="total">
+                <br>
+                <br>
+                <button id="btnCalcular" onclick="cotizar()">Calcular</button>
+                <button id="btnLimpiar" onclick="limpiar()">Limpiar</button>
+            </center>
+        </div>
+
+        <div id="cajas2">
+            <h3>Planes de credito</h3>
+            <select name="planes" id="planes">
+                <option value="12">12 meses</option>
+                <option value="18">18 meses</option>
+                <option value="24">24 meses</option>
+                <option value="36">36 meses</option>
+                <option value="48">48 meses</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="">Pago mensual:</label>
+            <input type="text" name="Pago" id="Pago">
+        </div>
+
     </div>
 </body>
-</div>
 </html>

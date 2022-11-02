@@ -1,0 +1,37 @@
+#contenedor{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(177, 167, 162, 0.721);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cajas{
+    float: left;
+    inline-size: 50%;
+    margin-top: 80px;
+}
+
+#cajas2{
+    float: right;
+    inline-size: 50%;
+    margin-top: 50px;
+}
+
+#cajas center input{
+    width: 100px;
+    float: right;
+    margin-right: 1em;
+}
+
+#cajas2 input{
+    width: 100px;
+}
+
+#cajas button{
+    margin-left: 35px;
+}
+
+#contenedor label{
+    font-size: 20px;
+}
